@@ -2,7 +2,7 @@ package com.yanjianghua.logistics.entity;
 
 import java.math.BigDecimal;
 
-public class LogisticsProvide {
+public class Carrier {
 
     private Long ProvideId;//主键
     private String name;//承运商站点名称
@@ -14,7 +14,7 @@ public class LogisticsProvide {
     private BigDecimal maxLoad;//最大载重
     private Integer rating;//信用分
 
-    public LogisticsProvide() {
+    public Carrier() {
     }
 
     public Long getProvideId() {
